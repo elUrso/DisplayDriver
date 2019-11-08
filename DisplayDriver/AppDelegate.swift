@@ -10,11 +10,13 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    var icon: DisplayDriverIcon! = nil
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        icon = DisplayDriverIcon()
+        icon.create()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

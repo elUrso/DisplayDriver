@@ -11,6 +11,7 @@
 		25172ACC237606EE00E572D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25172ACB237606EE00E572D8 /* ViewController.swift */; };
 		25172ACE237606EF00E572D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25172ACD237606EF00E572D8 /* Assets.xcassets */; };
 		25172AD1237606EF00E572D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25172ACF237606EF00E572D8 /* Main.storyboard */; };
+		25172ADA2376081200E572D8 /* DisplayDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25172AD92376081200E572D8 /* DisplayDriver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		25172AD0237606EF00E572D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25172AD2237606EF00E572D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25172AD3237606EF00E572D8 /* DisplayDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisplayDriver.entitlements; sourceTree = "<group>"; };
+		25172AD92376081200E572D8 /* DisplayDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDriver.swift; sourceTree = "<group>"; };
+		25172ADC23761B3A00E572D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,7 @@
 		25172ABD237606EE00E572D8 = {
 			isa = PBXGroup;
 			children = (
+				25172ADC23761B3A00E572D8 /* README.md */,
 				25172AC8237606EE00E572D8 /* DisplayDriver */,
 				25172AC7237606EE00E572D8 /* Products */,
 			);
@@ -59,6 +63,7 @@
 				25172ACF237606EF00E572D8 /* Main.storyboard */,
 				25172AD2237606EF00E572D8 /* Info.plist */,
 				25172AD3237606EF00E572D8 /* DisplayDriver.entitlements */,
+				25172AD92376081200E572D8 /* DisplayDriver.swift */,
 			);
 			path = DisplayDriver;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25172ADA2376081200E572D8 /* DisplayDriver.swift in Sources */,
 				25172ACC237606EE00E572D8 /* ViewController.swift in Sources */,
 				25172ACA237606EE00E572D8 /* AppDelegate.swift in Sources */,
 			);
