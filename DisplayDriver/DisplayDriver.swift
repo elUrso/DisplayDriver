@@ -18,7 +18,7 @@ class DisplayDriverIcon {
     init() {
         id = CGMainDisplayID()
         self.modes = []
-        let modes = CGDisplayCopyAllDisplayModes(id, nil) as! NSArray
+        let modes = CGDisplayCopyAllDisplayModes(id, nil)! as NSArray
         for i in modes {
             self.modes.append(i as! CGDisplayMode)
         }
@@ -36,6 +36,10 @@ class DisplayDriverIcon {
     }
     
     func prepareMenu() {
+        let title = "restore"
+        let item = NSMenuItem(title: title, action: #selector(hello), keyEquivalent: "")
+        item.target = self
+        menu.addItem(item)
         for mode in modes {
             let title = "\(mode.pixelWidth)x\(mode.pixelHeight)"
             let item = NSMenuItem(title: title, action: #selector(hello), keyEquivalent: "")
@@ -46,6 +50,10 @@ class DisplayDriverIcon {
     }
     
     @objc func hello(_ item: NSMenuItem) {
-        CGDisplaySetDisplayMode(id, nameToMode[item.title], nil)
+        if item.title == "restore" {
+            CGRestorePermanentDisplayConfiguration()
+        } else {
+            CGDisplaySetDisplayMode(id, nameToMode[item.title], nil)
+        }
     }
 }
