@@ -1,58 +1,64 @@
 {
   "images" : [
     {
+      "filename" : "Mac Icon 16pt.png",
       "idiom" : "mac",
-      "size" : "16x16",
-      "scale" : "1x"
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "Mac Icon 16pt@2x.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "Mac Icon 32pt.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "Mac Icon 32pt@2x.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "Mac Icon 128pt.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "Mac Icon 128pt@2x.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "128x128"
     },
     {
       "idiom" : "mac",
-      "size" : "16x16",
-      "scale" : "2x"
+      "scale" : "1x",
+      "size" : "256x256"
     },
     {
       "idiom" : "mac",
-      "size" : "32x32",
-      "scale" : "1x"
+      "scale" : "2x",
+      "size" : "256x256"
     },
     {
       "idiom" : "mac",
-      "size" : "32x32",
-      "scale" : "2x"
+      "scale" : "1x",
+      "size" : "512x512"
     },
     {
       "idiom" : "mac",
-      "size" : "128x128",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "mac",
-      "size" : "128x128",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "mac",
-      "size" : "256x256",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "mac",
-      "size" : "256x256",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "mac",
-      "size" : "512x512",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "mac",
-      "size" : "512x512",
-      "scale" : "2x"
+      "scale" : "2x",
+      "size" : "512x512"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
