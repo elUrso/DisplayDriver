@@ -92,16 +92,6 @@ class DisplayDriverIcon {
                 menu.addItem(item)
             }
         }
-        
-        // Iterate over screen modes to add to menu
-        /*for mode in modes {
-            let title = "\(mode.pixelWidth)x\(mode.pixelHeight)"
-            // Set the callback
-            let item = NSMenuItem(title: title, action: #selector(hello), keyEquivalent: "")
-            item.target = self
-            nameToMode[title] = mode
-            menu.addItem(item)
-        }*/
     }
     
     @objc func setMode(_ item: ConfigurationMenuItem) {
